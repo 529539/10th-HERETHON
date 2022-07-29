@@ -1,0 +1,154 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+		"Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+		"Malgun Gothic", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #efefe6;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+.header {
+	margin-top: 40px;
+}
+.color {
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	left: 27px;
+	top: 45px;
+	border-radius: 50%;
+	background: #ff7b8c;
+}
+.close-button {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 386px;
+	top: 47px;
+	width: 21px;
+	height: 21px;
+}
+.container {
+	width: 428px;
+	height: 926px;
+	background: #efefe6;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.date {
+	position: absolute;
+	width: 147px;
+	height: 22px;
+	left: 140px;
+	top: 104px;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	color: #c9c9c9;
+}
+.title {
+	position: absolute;
+	width: 370px;
+	height: 18px;
+	left: 29px;
+	top: 140px;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.line {
+	position: absolute;
+	width: 26px;
+	height: 0px;
+	left: 199px;
+	top: 210px;
+	border: 1px solid #ff7b8c;
+}
+.text-container {
+	position: absolute;
+	width: 345px;
+	height: 325px;
+	left: 43px;
+	top: 256px;
+	background: #f2e2d9;
+	border-radius: 30px;
+}
+.text-container2 {
+	text-align: center;
+	margin-left: 18px;
+	margin-top: 5px;
+}
+.text {
+	position: absolute;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #6b6b6b;
+}
+.button-container {
+	display: flex;
+	position: absolute;
+	width: 260px;
+	left: 84px;
+	top: 602px;
+}
+.circle {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	background: #f2e2d9;
+	margin-right: 25px;
+}
+.share-button,
+.write-button,
+.delete-button {
+	width: 25px;
+	height: 25px;
+	left: 20px;
+	top: 20px;
+	position: relative;
+}
+.footer {
+	margin-top: 900px;
+	position: relative;
+	display: flex;
+}
+.nav-calendar {
+	width: 24px;
+	height: 24px;
+	left: 63px;
+	position: absolute;
+}
+.nav-write {
+	width: 24px;
+	height: 24px;
+	left: 203px;
+	position: absolute;
+}
+.nav-list {
+	width: 24px;
+	height: 24px;
+	left: 343px;
+	position: absolute;
+}
