@@ -1,0 +1,225 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+* {
+	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+		"Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+		"Malgun Gothic", sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #efefe6;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+.container {
+	width: 428px;
+	height: 926px;
+	background: #efefe6;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header {
+	margin-top: 42px;
+	margin-left: 17px;
+	display: flex;
+}
+.undo-button {
+	width: 21px;
+	height: 21px;
+	margin-top: 3px;
+	transform: rotate(180deg);
+}
+.title {
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 0 auto;
+}
+.main {
+	margin-top: 146px;
+	margin-left: 42px;
+}
+.circle {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 1.5px solid #ddd4c6;
+	border-radius: 50%;
+}
+.circle1 {
+	left: 42px;
+	top: 146px;
+}
+.circle2 {
+	left: 164px;
+	top: 146px;
+}
+.circle3 {
+	left: 286px;
+	top: 146px;
+}
+.circle4 {
+	left: 42px;
+	top: 330px;
+}
+.circle5 {
+	left: 164px;
+	top: 330px;
+}
+.circle6 {
+	left: 286px;
+	top: 330px;
+}
+.circle7 {
+	left: 42px;
+	top: 514px;
+}
+.circle8 {
+	left: 164px;
+	top: 514px;
+}
+.circle9 {
+	left: 286px;
+	top: 514px;
+}
+.circle10 {
+	left: 42px;
+	top: 698px;
+}
+.circle11 {
+	left: 164px;
+	top: 698px;
+}
+.circle12 {
+	left: 286px;
+	top: 698px;
+}
+.text {
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	position: absolute;
+}
+.text1 {
+	left: 59px;
+	top: 259px;
+}
+.text2 {
+	left: 182px;
+	top: 259px;
+}
+.text3 {
+	left: 305px;
+	top: 259px;
+}
+.text4 {
+	left: 57px;
+	top: 443px;
+}
+.text5 {
+	left: 180px;
+	top: 443px;
+}
+.text6 {
+	left: 297px;
+	top: 443px;
+}
+.text7 {
+	left: 60px;
+	top: 627px;
+}
+.text8 {
+	left: 188px;
+	top: 627px;
+}
+.text9 {
+	left: 317px;
+	top: 627px;
+}
+.text10 {
+	left: 59px;
+	top: 811px;
+}
+.text11 {
+	left: 190px;
+	top: 811px;
+}
+.text12 {
+	left: 298px;
+	top: 811px;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12 {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+.img5 {
+	width: 69.44px;
+	height: 69.44px;
+	position: absolute;
+}
+.img1 {
+	left: 62px;
+	top: 166px;
+}
+.img2 {
+	left: 184px;
+	top: 166px;
+}
+.img3 {
+	left: 306px;
+	top: 166px;
+}
+.img4 {
+	left: 62px;
+	top: 350px;
+}
+.img5 {
+	left: 179px;
+	top: 345px;
+}
+.img6 {
+	left: 306px;
+	top: 350px;
+}
+.img7 {
+	left: 62px;
+	top: 534px;
+}
+.img8 {
+	left: 184px;
+	top: 534px;
+}
+.img9 {
+	left: 306px;
+	top: 534px;
+}
+.img10 {
+	left: 62px;
+	top: 718px;
+}
+.img11 {
+	left: 184px;
+	top: 718px;
+}
+.img12 {
+	left: 306px;
+	top: 718px;
+}
