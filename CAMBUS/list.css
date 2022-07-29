@@ -1,0 +1,216 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+* {
+	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+		"Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+		"Malgun Gothic", sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #efefe6;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+.container {
+	width: 428px;
+	height: 926px;
+	background: #efefe6;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header {
+	margin-top: 42px;
+	margin-left: 17px;
+	display: flex;
+}
+.undo-button {
+	width: 21px;
+	height: 21px;
+	margin-top: 3px;
+	transform: rotate(180deg);
+}
+.sort-button {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	left: 390px;
+	top: 41px;
+}
+.emoji {
+	left: 126px;
+	top: 129px;
+	position: absolute;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+}
+.main {
+	margin-top: 250px;
+	margin-left: 30px;
+}
+.title {
+	position: absolute;
+	width: 370px;
+	height: 18px;
+	left: 31px;
+	top: 140px;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	text-align: center;
+}
+.line {
+	position: absolute;
+	width: 26px;
+	height: 0px;
+	left: 203px;
+	top: 215px;
+	border: 1px solid #cdbba7;
+}
+.list-container {
+	position: absolute;
+	top: 250px;
+	left: 30px;
+}
+.list-box {
+	position: absolute;
+	width: 367px;
+	height: 81px;
+	background: rgba(205, 187, 167, 0.3);
+	border-radius: 30px;
+}
+.list-box2 {
+	top: 95px;
+}
+.list-box3 {
+	top: 190px;
+}
+.list-box4 {
+	top: 285px;
+}
+.list-box5 {
+	top: 380px;
+}
+.list-box6 {
+	top: 475px;
+}
+.color {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	left: 30px;
+	top: 10px;
+}
+.color1 {
+	background: #ffada5;
+}
+.color2 {
+	background: #ffe595;
+}
+.color3 {
+	background: #ffcd94;
+}
+.color4 {
+	background: #dcd0d7;
+}
+.color5 {
+	background: #a5debe;
+}
+.color6 {
+	background: #b3c4cf;
+}
+.date-container {
+	position: absolute;
+	width: 44px;
+	height: 13px;
+	background: rgba(201, 201, 201, 0.3);
+	border-radius: 30px;
+	left: 30px;
+	top: 60px;
+}
+.date {
+	position: absolute;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9px;
+	color: #6b6b6b;
+	margin: 0;
+	margin-left: 6px;
+}
+.list-line {
+	position: absolute;
+	width: 50px;
+	height: 0px;
+	border: 0.5px solid #c9c9c9;
+	transform: rotate(90deg);
+	left: 70px;
+	top: 40px;
+}
+.number {
+	position: absolute;
+	width: 11px;
+	height: 20px;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 20px;
+	color: #c9c9c9;
+	left: 105px;
+}
+.text {
+	position: absolute;
+	width: 213px;
+	left: 105px;
+	top: 21px;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6b6b6b;
+}
+.text-small {
+	position: absolute;
+	width: 213px;
+	left: 105px;
+	top: 21px;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #6b6b6b;
+}
+.footer {
+	margin-top: 820px;
+	position: relative;
+	display: flex;
+}
+.nav-calendar {
+	width: 24px;
+	height: 24px;
+	left: 63px;
+	position: absolute;
+}
+.nav-write {
+	width: 24px;
+	height: 24px;
+	left: 203px;
+	position: absolute;
+}
+.nav-list {
+	width: 24px;
+	height: 24px;
+	left: 343px;
+	position: absolute;
+}
